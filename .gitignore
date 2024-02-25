@@ -1,0 +1,6 @@
+# Ignore build directories
+/dataset/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
