@@ -1,0 +1,72 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "review_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "F": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "BR": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "AU": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FI": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "IR": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "A": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "L": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "LF": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "MN": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "O": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "PE": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "SC": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "SE": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "US": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "PO": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
