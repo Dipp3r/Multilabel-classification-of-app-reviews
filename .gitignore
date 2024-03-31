@@ -4,3 +4,4 @@
 # Ignore system-specific files
 .DS_Store
 Thumbs.db
+/_data_generation-gemini-pro/.env
