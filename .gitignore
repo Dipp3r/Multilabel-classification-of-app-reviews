@@ -1,0 +1,6 @@
+/dataset/
+.DS_Store
+Thumbs.db
+/code/_2_data_generation-gemini-pro/.env
+/code/_5_model_selection/Model/BiGRU-Bert/model.safetensors
+/code/_5_model_selection/Model/BiGRU-Bert/optimizer.pt
