@@ -1,0 +1,169 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow: hidden;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#title{
+  float: left;
+}
+
+#text-bar-wrapper{
+  position: absolute;
+  bottom: 70px;
+}
+
+.label-tag{
+  color: white;
+  margin:0px 5px;
+  float: left;
+  background-color: rgb(81, 82, 158);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  /* border: white solid 1px; */
+  padding: 1px 8px;
+  transform: scale(0.9);
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.column{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#labels{
+  width: 100%;
+  margin:0px 20px 10px 0px;
+  font-size: 12px;
+}
+
+.end{
+  justify-content: flex-end;
+}
+
+#review-card{
+  /* background-color: rgb(78, 78, 78); */
+  /* padding: 20px; */
+  width: fit-content;
+  border: #a5a5a5 solid 1px;
+  box-shadow: #7a7a7a 3px 4px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+#review-text{
+  padding: 5px;
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  text-align: start;
+  text-justify: start;
+}
+
+#post-button{
+  font-weight: 800;
+  color: rgb(44, 44, 44);
+  background-color: rgb(141, 160, 255);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+#post-button:focus{
+  transition: transform;
+  animation: button-click 0.5s ease;
+}
+
+@keyframes button-click {
+  
+  0%{
+    transform: scale(1);
+  }
+  25%{
+    transform: scale(1.05);
+  }
+  75%{
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+textarea {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: pre-wrap;
+  resize: none;
+  min-width: 200px;
+  width: 800px;
+  height: 52px;
+  /* overflow-y: hidden; */
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1em 1.4em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+textarea:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
