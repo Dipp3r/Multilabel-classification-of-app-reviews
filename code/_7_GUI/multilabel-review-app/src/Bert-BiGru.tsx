@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const GOOGLE_API_KEY: string | undefined = "AIzaSyAuVJ1X3aZ7_hKuoQ5H8m4dihBHnbki-Q8";
+const GOOGLE_API_KEY: string | undefined = process.env.GOOGLE_API_KEY;
 if (!GOOGLE_API_KEY) {
     throw new Error('API_KEY not found in environment variables.');
 }
