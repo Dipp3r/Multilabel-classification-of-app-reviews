@@ -2,7 +2,8 @@
 .DS_Store
 Thumbs.db
 /code/_2_data_generation-gemini-pro/.env
-/code/_5_model_selection/Model/BiGRU-Bert/model.safetensors
-/code/_5_model_selection/Model/BiGRU-Bert/optimizer.pt
+/code/_5_model_selection/Model/
+/code/_7_GUI/node_modules/
+/code/_4_data_preprocessing/hugging-face-dataset/
 *.pdf
 *.docx
